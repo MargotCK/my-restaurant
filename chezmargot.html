@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant chez Margot</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+    }
+
+    .banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    .menu-section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Restaurant chez Margot</h1>
+  </header>
+
+  <nav>
+    <a href="#menu-entree">Entrées</a>
+    <a href="#menu-plat">Plats</a>
+    <a href="#menu-dessert">Desserts</a>
+  </nav>
+
+  <img class="banner" src="assets/meal.jpg" alt="Bannière du restaurant">
+
+
+  <div class="menu-section" id="menu-entree">
+    <h2>Entrées</h2>
+    <ul>
+      <li>Entrée 1</li>
+      <li>Entrée 2</li>
+      <li>Entrée 3</li>
+    </ul>
+  </div>
+
+  <div class="menu-section" id="menu-plat">
+    <h2>Plats</h2>
+    <ul>
+      <li>Plat 1</li>
+      <li>Plat 2</li>
+      <li>Plat 3</li>
+    </ul>
+  </div>
+
+  <div class="menu-section" id="menu-dessert">
+    <h2>Desserts</h2>
+    <ul>
+      <li>Dessert 1</li>
+      <li>Dessert 2</li>
+      <li>Dessert 3</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Contactez-nous : contact@restaurantchezmargot.com</p>
+  </footer>
+
+</body>
+</html>
