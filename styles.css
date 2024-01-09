@@ -2,65 +2,56 @@
     margin: 0;
     padding: 0;
 }
-
-#global{
-
-    border: 1px solid brown;
-    background-color: bisque;
-
-}
-
-#header{
-    border: 1px;
-    background-color: aliceblue;
-    height: 100px;
-    margin: 5px;
-    padding: 5px;
+/* Reset des styles par défaut du navigateur */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
     text-align: center;
-
-}
-#nav{
-    border: 1px;
-    background-color: rgb(19, 136, 239);
-    height: 50px;
-    margin: 5px;
-    padding: 5px;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #555;
+    padding: 10px;
     text-align: center;
-}
-
-
-#contenu{
-    border: 1px;
-    background-color: aliceblue;
-    height: 400px;
-    margin: 5px;
-    min-height: 400px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  
+  .banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .menu-section {
+    padding: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-
-}
-#footer{
-    border: 1px;
-    background-color: aliceblue;
-    bottom: 20px;
-    width: 150px;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
+    padding: 10px;
     position: fixed;
-}
-#menu{
-    border: 1px;
-    background-color: aliceblue;
-    width: 150px;
-    right: 2px;
-    left: 2cm;
-    padding: 5px;
-    min-height: 400px;
-    text-align: center;
-}
-
-#image{
-    max-width: 100%; /* Largeur maximale de l'image */
-      height: auto;
-}
-
+    bottom: 0;
+    width: 100%;
+  }
+  

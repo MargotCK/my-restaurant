@@ -1,35 +1,64 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chez Margot</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant chez Margot</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    /* Ajout d'un style pour le conteneur central dans le fichier HTML */
+    .central-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+</style>
+
 <body>
-    <div id="globale">
-        <div id="header">Mon restaurant</div>
-       
-        <div id=nav>
-            <ul>
-              <li>Accueil</a></li>
-              <li>Menu</a></li>
-            </ul>
-          </nav>
 
-        <div id="contenu">
-            <div class="image">
-                <img class="restaurant-image" src="assets/meal.jpg" alt="plat entrée, dessert">
-            </div>
-            <div id="menu">
-                
-            </div>
-        </div>
+<header>
+    <h1>Restaurant chez Margot</h1>
+</header>
 
-        <div id="footer">Contact</div>
+<nav>
+    <a href="#menu-entree">Entrées</a>
+    <a href="#menu-plat">Plats</a>
+    <a href="#menu-dessert">Desserts</a>
+</nav>
+
+<img class="banner" src="assets/meal.jpg" alt="Bannière du restaurant">
 
 
+<div class="menu-section" id="menu-entree">
+    <h2>Entrées</h2>
+    <ul>
+        <li>Entrée 1</li>
+        <li>Entrée 2</li>
+        <li>Entrée 3</li>
+    </ul>
+</div>
 
-    </div>
+<div class="menu-section" id="menu-plat">
+    <h2>Plats</h2>
+    <ul>
+        <li>Plat 1</li>
+        <li>Plat 2</li>
+        <li>Plat 3</li>
+    </ul>
+</div>
+
+<div class="menu-section" id="menu-dessert">
+    <h2>Desserts</h2>
+    <ul>
+    <li>Dessert 1</li>
+    <li>Dessert 2</li>
+    <li>Dessert 3</li>
+    </ul>
+</div>
+
+<footer>
+    <p>Contactez-nous : contact@restaurantchezmargot.com</p>
+</footer>
+
 </body>
 </html>
